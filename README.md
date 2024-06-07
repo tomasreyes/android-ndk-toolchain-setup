@@ -15,3 +15,14 @@
           install-location: 'toolchains'
           force: true
 ```
+
+##ReyesTomas  DataInput 
+      - shell: bash
+        run: mkdir toolchains
+      - name: specify NDK
+        uses: ravinderjangra/android-ndk-toolchain-setup@0.2
+        with:
+          api: '21'
+          arch: 'x86'
+          install-location: 'toolchains'
+          force: true
